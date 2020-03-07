@@ -1,0 +1,77 @@
+Package: metapackage
+Title: A Personal Metapackage
+Version: 0.0.0
+Authors@R: 
+    person(given = "Paul",
+           family = "Egeler",
+           email = "foo@example.com",
+           role = c("aut", "cre"))
+Description: This package installs other packages that I often like to have
+    after a fresh install of R.
+License: GPL-3
+Imports:
+    argparse,
+    caret,
+    data.table,
+    DBI,
+    devtools,
+    digest,
+    doParallel,
+    eddington,
+    foreach,
+    fortunes,
+    getPass,
+    ggformula,
+    hashmap,
+    httpuv,
+    httr,
+    jsonlite,
+    knitr,
+    magrittr,
+    microbenchmark,
+    mlaibr,
+    monNameGen,
+    mvrt,
+    partition,
+    password,
+    pkgdown,
+    primes,
+    R6,
+    randomForest,
+    RColorBrewer,
+    Rcpp,
+    RcppArmadillo,
+    RcppEigen,
+    RCurl,
+    REDCapRITS,
+    reticulate,
+    rmarkdown,
+    RODBC,
+    roxygen2,
+    rpart,
+    samplesizeCMH,
+    scales,
+    stringr,
+    stt,
+    testthat,
+    tidyverse,
+    ttt,
+    unemployment,
+    usethis,
+    viridis,
+    viridisLite,
+    withr,
+    XML,
+    yaml
+Remotes:
+    pegeler/eddington2/R/package,
+    pegeler/mlaibr,
+    pegeler/monNameGen,
+    pegeler/mvrt,
+    SpectrumHealthResearch/REDCapRITS/R,
+    SpectrumHealthResearch/samplesizeCMH,
+    SpectrumHealthResearch/t-test/R,
+    pegeler/tic-tac-toe/R,
+    pegeler/unemployment
+Encoding: UTF-8
+LazyData: true
