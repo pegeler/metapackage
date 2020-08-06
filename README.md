@@ -1,4 +1,4 @@
-# metapackage
+# metapackage <img src='hex-rpkgs.png' align='right' height='150' />
 
 The sole purpose of this package is to install other packages. It is meant to be
 a quick way to install all the packages that I typically use in R. Although
