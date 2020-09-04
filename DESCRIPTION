@@ -32,7 +32,7 @@ Imports:
     mlaibr,
     monNameGen,
     mvrt,
-    partition,
+    partitions,
     password,
     pkgdown,
     primes,
