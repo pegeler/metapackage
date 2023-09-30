@@ -19,3 +19,14 @@ installs, please submit an issue. I'd like to hear about it!
 if ( !require(devtools) ) install.packages("devtools")
 devtools::install_github("pegeler/metapackage")
 ```
+
+## Note for GNU/Linux Users
+
+I recommend checking out [Posit Public Package Manager](https://packagemanager.posit.co/).
+There are tons of features available, but the two main selling points for me are:
+
+1. It hosts precompiled binaries for many distros.
+2. It tracks system level dependencies. (Even though you will still need to install them manually.)
+
+When installing many packages (for example fresh installs or version updates), this can
+save quite a bit of time over compiling from source.
